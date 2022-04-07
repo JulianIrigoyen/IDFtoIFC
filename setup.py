@@ -12,14 +12,14 @@ setuptools.setup(
     description='Codebase to transform IDF files to IFC format. ',
     long_description=long_description,  # loads your README.md
     long_description_content_type="text/markdown",  # README.md is of type 'markdown'
-    author='Ángel Díaz',
-    author_email='angeldiaz017@gmail.com', #TODO get real mail
+    author='Ángel Díaz Murillo',
+    author_email='angel_diaz_murillo@hotmail.com',
     url='https://github.com/mike-huls/toolbox_public',
     project_urls={  # Optional
         "Bug Tracker": "https://github.com/mike-huls/toolbox_public/issues"
     },
-    install_requires=['requests'],  # list all packages that your package uses
-    keywords=["pypi", "mikes_toolbox", "tutorial"],  # descriptive meta-data
+    install_requires=[''],  # list all packages that your package uses
+    keywords=["pypi", "idf-to-ifc"],
     classifiers=[  # https://pypi.org/classifiers
         'Development Status :: 3 - Alpha',
         'Intended Audience :: Developers',
@@ -31,5 +31,5 @@ setuptools.setup(
         'Programming Language :: Python :: 3.9',
     ],
 
-    download_url="https://github.com/mike-huls/toolbox_public/archive/refs/tags/0.0.3.tar.gz",
+    download_url="https://github.com/mike-huls/toolbox_public/archive/refs/tags/0.0.1.tar.gz",
 )
