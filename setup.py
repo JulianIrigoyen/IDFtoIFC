@@ -15,9 +15,6 @@ setuptools.setup(
     author='Ángel Díaz Murillo',
     author_email='angel_diaz_murillo@hotmail.com',
     url='https://github.com/mike-huls/toolbox_public',
-    project_urls={  # Optional
-        "Bug Tracker": "https://github.com/mike-huls/toolbox_public/issues"
-    },
     install_requires=[''],  # list all packages that your package uses
     keywords=["pypi", "idf-to-ifc"],
     classifiers=[  # https://pypi.org/classifiers
@@ -31,5 +28,5 @@ setuptools.setup(
         'Programming Language :: Python :: 3.9',
     ],
 
-    download_url="https://github.com/mike-huls/toolbox_public/archive/refs/tags/0.0.1.tar.gz",
+    download_url="https://github.com/JulianIrigoyen/IDFtoIFC/archive/refs/tags/0.0.1.tar.gz",
 )
